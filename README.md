@@ -1,4 +1,5 @@
-# Image_Segmentation_Project-
+# Image Segmentation Project
+
 Junio 2019
 
 Para ejecutar el programa es ir a la carpeta mediante su consola o terminal al folder
