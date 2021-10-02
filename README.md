@@ -64,10 +64,9 @@ Salida: output/
 
 ## How to run
 
-Para ejecutar el programa es ir a la carpeta mediante su consola o terminal al folder
-en el que se encuentra el programa.
+To run the program is to go to the folder through your console or terminal to the folder in which the program is located.
 
-Debe ingresar y digitar en la consola o terminal:
+You must enter and type in the console or terminal:
 
 ```
 $ make
