@@ -60,7 +60,7 @@ alto: 455
 Salida: output/
 ```
 
-![](https://github.com/brown9804/Image_Segmentation_Project/blob/master/docs/img/output_img_seg_project.png)
+![](https://github.com/brown9804/Image_Segmentation_Project/blob/master/docs/img/output_img_seg_project_def.png)
 
 ## How to run
 
