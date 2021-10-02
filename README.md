@@ -1,24 +1,26 @@
 # Image Segmentation Project
 
-Junio 2019
+----------
 
-Para ejecutar el programa es ir a la carpeta mediante su consola o terminal al folder
-en el que se encuentra el programa.
+Universidad de Costa Rica
 
-Debe ingresar y digitar en la consola o terminal:
+Belinda Brown, belindabrownr04@gmail.com
 
-$ make
+Junio, 2019
 
+----------
 
+## Problem statement 
 
-Diseño, programación en el lenguaje de programación C y pruebe un proyecto en “CodeBlocks” denominado “image_segmentation_project” que realice:
+Design, programming in the C programming language and testing a project in “CodeBlocks” called “image_segmentation_project” that performs:
 
-1.1.Lea una imagen de color en formato “.bmp” del disco duro.
+1.1.Read a color image in “.bmp” format from the hard disk.
 
-1.2.Calcule la imagen de intensidad de la imagen de color obtenida en el punto a) y almacene la imagen de intensidad resultante en el disco duro bajo el nombre “imagenDeIntensidad.bmp”, en formato “.bmp”.
+1.2.Calculate the intensity image of the color image obtained in point a) and store the resulting intensity image on the hard disk under the name "IntensityImage.bmp", in ".bmp" format.
 
-1.3.Umbralice la imagen de intensidad obtenida en el punto b) y almacene la imagen segmentada resultante en el disco duro bajo el nombre “imagenSegmentada.bmp”, en formato “.bmp”. El umbral deberá calcularse en forma automática mediante la aplicación del algoritmo de Kittler a la imagen de intensidad. El umbral, los pesos, las medias y las varianzas óptimas deberán visualizarse en el terminal y salvarse en un archivo de texto denominado “resultadosOptimosSegunKittler.txt”. Para las pruebas utilice la imagen “cuadro1_00.bmp”, que podrá bajarse de Mediación Virtual, para la cual el algoritmo de Kittler da como resultado los siguientes valores óptimos:
+1.3. Threshold the intensity image obtained in point b) and store the resulting segmented image on the hard disk under the name “segmented image.bmp”, in “.bmp” format. The threshold should be calculated automatically by applying the Kittler algorithm to the intensity image. The optimal threshold, weights, means, and variances should be displayed on the terminal and saved in a text file called “optimalResultsSegunKittler.txt”. For the tests use the image "table1_00.bmp", which can be downloaded from Virtual Mediation, for which the Kittler algorithm gives the following optimal values:
 
+```
 Ubuntu 32 bit:
 
 th=165
@@ -43,10 +45,12 @@ var1=15.381974
 mean2=219.336596 
 
 var2=9.867214
+```
 
-El directorio y nombre de la imagen de color de entrada y sus dimensiones (ancho y alto), deberán leerse de un archivo de parámetros de control denominado “current_control_parameters.txt”. Asimismo, en dicho archivo deberá indicarse el directorio de salida, donde las imágenes “imagenDeIntensida.bmp” e “imagenSegmentada.bmp”, y el archivo de texto “resultadosOptimosSegunKittler.txt”, deberán almacenarse. Un ejemplo de archivo de parámetros de control es el siguiente:
+The directory and name of the input color image and its dimensions (width and height) must be read from a control parameter file called “current_control_parameters.txt”. Likewise, in said file the output directory must be indicated, where the images "imagenDeIntensida.bmp" and "imagenSegmentada.bmp", and the text file "ResultsOptimosSegunKittler.txt", must be stored. An example of a control parameter file is as follows:
 
 
+```
 Entrada: input/cuadro1_00.bmp 
 
 ancho: 756
@@ -54,3 +58,23 @@ ancho: 756
 alto: 455
 
 Salida: output/
+```
+
+![](https://github.com/brown9804/Image_Segmentation_Project/blob/master/docs/img/output_img_seg_project.png)
+
+## How to run
+
+Para ejecutar el programa es ir a la carpeta mediante su consola o terminal al folder
+en el que se encuentra el programa.
+
+Debe ingresar y digitar en la consola o terminal:
+
+```
+$ make
+```
+
+
+
+
+
+
